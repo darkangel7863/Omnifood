@@ -1,0 +1,57 @@
+/* 
+-- 01/Typography System
+
+- Font Sizes (px) :
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weight : 
+Default : 400
+
+- Lineheights : 
+Default : 1
+
+
+
+-- 02/Colors
+
+- Primary : #e67e22
+
+- Tints : 
+- Shades : 
+- Accents :
+- Greys :
+#555
+
+-- 03/Images
+
+-- 04/Icons
+
+-- 05/Shadows 
+
+-- 06/Border-Radius
+
+-- 07/Whitespace
+
+- SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+ */
+html {
+  /* 1rem = 10px */
+  font-size: 62.5%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+}
+.test {
+  width: 1000px;
+  background-color: red;
+  padding: 100px;
+}
